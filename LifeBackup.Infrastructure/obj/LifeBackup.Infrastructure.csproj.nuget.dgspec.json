@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\dev\\LifeBackup.Api\\LifeBackup.Infrastructure\\LifeBackup.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\dev\\LifeBackup.Api\\LifeBackup.Core\\LifeBackup.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\LifeBackup.Api\\LifeBackup.Core\\LifeBackup.Core.csproj",
+        "projectName": "LifeBackup.Core",
+        "projectPath": "C:\\dev\\LifeBackup.Api\\LifeBackup.Core\\LifeBackup.Core.csproj",
+        "packagesPath": "C:\\Users\\manag\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\LifeBackup.Api\\LifeBackup.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\manag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\dev\\LifeBackup.Api\\LifeBackup.Infrastructure\\LifeBackup.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\LifeBackup.Api\\LifeBackup.Infrastructure\\LifeBackup.Infrastructure.csproj",
+        "projectName": "LifeBackup.Infrastructure",
+        "projectPath": "C:\\dev\\LifeBackup.Api\\LifeBackup.Infrastructure\\LifeBackup.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\manag\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\LifeBackup.Api\\LifeBackup.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\manag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\dev\\LifeBackup.Api\\LifeBackup.Core\\LifeBackup.Core.csproj": {
+                "projectPath": "C:\\dev\\LifeBackup.Api\\LifeBackup.Core\\LifeBackup.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.3.104.25, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
